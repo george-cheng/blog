@@ -1,2 +1,11 @@
 @charset "utf-8";
+#container {
+  width: 1920px;
+}
+#section {
+  width: 1180px;
+  height: 200px;
+  background-color: #fff;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=404.css.map */

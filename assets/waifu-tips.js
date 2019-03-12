@@ -154,7 +154,7 @@ function initModel(waifuPath, type) {
     live2d_settings.homePageUrl == 'auto' ? window.location.protocol+'//'+window.location.hostname+'/' : live2d_settings.homePageUrl;
     if (window.location.protocol == 'file:' && live2d_settings.modelAPI.substr(0,2) == '//') live2d_settings.modelAPI = 'http:'+live2d_settings.modelAPI;
     
-    $('.waifu-tool .fui-home').click(function (){
+    $('.waifu-tool .fui-html').click(function (){
         //window.location = 'https://www.fghrsh.net/';
         window.location = live2d_settings.homePageUrl;
     });
@@ -179,7 +179,7 @@ function initModel(waifuPath, type) {
     if (!live2d_settings.canSwitchTextures) $('.waifu-tool .fui-user').hide();
     if (!live2d_settings.canSwitchHitokoto) $('.waifu-tool .fui-chat').hide();
     if (!live2d_settings.canTakeScreenshot) $('.waifu-tool .fui-photo').hide();
-    if (!live2d_settings.canTurnToHomePage) $('.waifu-tool .fui-home').hide();
+    if (!live2d_settings.canTurnToHomePage) $('.waifu-tool .fui-html').hide();
     if (!live2d_settings.canTurnToAboutPage) $('.waifu-tool .fui-info-circle').hide();
 
     if (waifuPath === undefined) waifuPath = '';
