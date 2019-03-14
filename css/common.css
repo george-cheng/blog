@@ -7,13 +7,12 @@ body {
 /*内容*/
 #section {
   width: 1180px;
-  height: 394px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 #section .sec_tit {
   width: 100%;
   height: 80px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   border-bottom: 2px solid #262e42;
@@ -27,7 +26,7 @@ body {
 }
 #section .sec_con {
   width: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }

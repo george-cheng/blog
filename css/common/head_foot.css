@@ -1,0 +1,17 @@
+@charset "utf-8";
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/*内容部分*/
+#hd {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+#hd .hd_tit {
+  margin: 0 auto;
+  width: 1180px;
+  height: 80px;
+}
+/*# sourceMappingURL=head_foot.css.map */
