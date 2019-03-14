@@ -52,7 +52,7 @@ body {
 }
 #hd .hd_tit .tit_info .tit_list {
   display: inline-block;
-  margin-left: 90px;
+  margin-left: 80px;
   width: 534px;
   line-height: 88px;
   vertical-align: bottom;
@@ -61,10 +61,21 @@ body {
   display: flex;
   flex: 1;
   justify-content: space-between;
+  -webkit-justify-content: space-between;
 }
 #hd .hd_tit .tit_info .tit_list ul li a {
   color: #fff;
   font-size: 20px;
+  line-height: 20px;
+}
+#hd .hd_tit .tit_info .tit_login {
+  display: inline-block;
+  float: right;
+  margin: 10px 0;
+}
+#hd .hd_tit .tit_info .tit_login a {
+  font-size: 20px;
+  color: #fff;
   line-height: 20px;
 }
 /*# sourceMappingURL=head_foot.css.map */

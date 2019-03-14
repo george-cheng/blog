@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752108c6-bbc3-4ab8-a6f2-53297c41a9f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/404.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/common/head_foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common/head_foot.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/common/head_foot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/common/head_foot.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/common/head_foot.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/common/head_foot.less" afterDir="false" />
@@ -25,7 +25,7 @@
             <entry file="file://$PROJECT_DIR$/html/common/header.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="303">
-                  <caret line="23" column="40" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="40" />
+                  <caret line="36" column="37" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -67,11 +67,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/404.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+                <state relative-caret-position="276">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
                 </state>
               </provider>
             </entry>
@@ -94,11 +94,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/common/head_foot.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+                <state relative-caret-position="418">
+                  <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -164,9 +164,9 @@
         <option value="$PROJECT_DIR$/test/section.html" />
         <option value="$PROJECT_DIR$/html/404.html" />
         <option value="$PROJECT_DIR$/css/common.less" />
+        <option value="$PROJECT_DIR$/css/404.less" />
         <option value="$PROJECT_DIR$/html/common/header.html" />
         <option value="$PROJECT_DIR$/css/common/head_foot.less" />
-        <option value="$PROJECT_DIR$/css/404.less" />
       </list>
     </option>
   </component>
@@ -177,8 +177,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-171" />
-    <option name="y" value="302" />
+    <option name="x" value="-48" />
+    <option name="y" value="285" />
     <option name="width" value="1936" />
     <option name="height" value="984" />
   </component>
@@ -279,10 +279,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60230000" />
+    <option name="totallyTimeSpent" value="61267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-171" y="302" width="1936" height="984" extended-state="0" />
+    <frame x="-48" y="285" width="1936" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09325606" />
@@ -466,24 +466,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/404.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/common/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="40" />
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/common/head_foot.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/404.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="418">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
         </state>
       </provider>
     </entry>
