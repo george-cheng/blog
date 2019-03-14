@@ -6,13 +6,13 @@ body {
 }
 /*内容*/
 #section {
+  margin: 0 auto;
   width: 1180px;
-  margin: 20px auto;
 }
 #section .sec_tit {
-  width: 100%;
+  margin: 0 auto;
   height: 80px;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   border-bottom: 2px solid #262e42;
@@ -26,7 +26,7 @@ body {
 }
 #section .sec_con {
   width: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }

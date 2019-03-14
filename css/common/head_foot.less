@@ -1,19 +1,55 @@
 @charset "utf-8";
 html,body{
   height: 100%;
-  width: 100%;
 }
 /*内容部分*/
 
-
-  #hd{
-    width: 100%;
-    background: rgba(0,0,0,0.3);
-    .hd_tit{
-      margin: 0 auto;
-      width: 1180px;
-      height: 80px;
-
+.container{
+  margin: 0 auto;
+}
+#hd{
+  background: rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  .hd_tit{
+    line-height: 80px;
+    span{
+      color: #ffffff;
     }
-    
+      height: 98px;
+      .tit_info{
+        margin: 0 auto;
+        width: 1180px;
+        display: flex;
+        -webkit-flex:1;
+        flex: 1;
+        padding: 15px 0;
+        .tit_info_hd{
+          display: inline-block;
+          width: 64px;
+          height: 64px;
+          border-radius: 50%;
+          img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        .tit_info_txt{
+          margin-left: 15px;
+          line-height: 64px;
+          p{
+            width: 180px;
+            color: #fff;
+            font-size: 24px;
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow:ellipsis;
+          }
+        }
+      }
+    }
   }

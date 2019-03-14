@@ -4,6 +4,9 @@ body {
   height: 100%;
   width: 100%;
 }
+#section {
+  padding-top: 120px;
+}
 #section .sec_tit a {
   float: right;
   color: #fff;
