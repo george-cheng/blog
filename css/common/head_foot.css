@@ -7,6 +7,7 @@ body {
 .container {
   margin: 0 auto;
 }
+/*头部样式*/
 #hd {
   background: rgba(0, 0, 0, 0.2);
   position: fixed;
@@ -68,14 +69,20 @@ body {
   font-size: 20px;
   line-height: 20px;
 }
+#hd .hd_tit .tit_info .tit_list ul li a:hover {
+  text-decoration: underline;
+}
 #hd .hd_tit .tit_info .tit_login {
   display: inline-block;
   float: right;
-  margin: 10px 0;
+  margin: 17px 0;
 }
 #hd .hd_tit .tit_info .tit_login a {
   font-size: 20px;
   color: #fff;
   line-height: 20px;
+}
+#hd .hd_tit .tit_info .tit_login a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=head_foot.css.map */
