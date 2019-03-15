@@ -127,4 +127,7 @@ body {
   font-style: italic;
   color: #fff;
 }
+#ft .ft_tit .ft_tit_con .con_rgt span a:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=head_foot.css.map */
