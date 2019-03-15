@@ -2,6 +2,7 @@
 html,
 body {
   height: 100%;
+  position: relative;
 }
 /*内容部分*/
 .container {
@@ -84,5 +85,46 @@ body {
 }
 #hd .hd_tit .tit_info .tit_login a:hover {
   text-decoration: underline;
+}
+/*底部样式*/
+#ft {
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+#ft .ft_tit {
+  height: 78px;
+}
+#ft .ft_tit .ft_tit_con {
+  margin: 0 auto;
+  width: 1180px;
+  line-height: 88px;
+}
+#ft .ft_tit .ft_tit_con .con_lft {
+  float: left;
+  font-size: 14px;
+  font-style: italic;
+}
+#ft .ft_tit .ft_tit_con .con_lft span {
+  color: #fff;
+}
+#ft .ft_tit .ft_tit_con .con_lft span a {
+  color: #fff;
+}
+#ft .ft_tit .ft_tit_con .con_lft span a:hover {
+  text-decoration: underline;
+}
+#ft .ft_tit .ft_tit_con .con_rgt {
+  display: inline-block;
+  float: right;
+}
+#ft .ft_tit .ft_tit_con .con_rgt span a {
+  font-size: 14px;
+  line-height: 14px;
+  font-style: italic;
+  color: #fff;
 }
 /*# sourceMappingURL=head_foot.css.map */
