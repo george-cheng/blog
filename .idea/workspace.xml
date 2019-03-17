@@ -3,18 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="752108c6-bbc3-4ab8-a6f2-53297c41a9f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/404.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/404.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common/head_foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common/head_foot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common/head_foot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/common/head_foot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common/head_foot.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/common/head_foot.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/register.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/register.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/register.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/register.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/register.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/common/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/common/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/register.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,38 +28,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
+          <entry key="html" value="4" />
           <entry key="less" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="4" />
           <entry key="Less" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="12" />
-          <entry key="less" value="259" />
+          <entry key="html" value="348" />
+          <entry key="less" value="761" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="12" />
-          <entry key="Less" value="259" />
+          <entry key="HTML" value="348" />
+          <entry key="Less" value="761" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49179104">
+    <splitter split-orientation="horizontal" split-proportion="0.6077429">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/common/header.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
+                <state relative-caret-position="24">
                   <caret line="13" column="32" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="32" />
                   <folding>
                     <element signature="e#1282#1288#0" expanded="true" />
@@ -77,12 +69,39 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/common/footer.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="312">
+                  <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html/register.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="487">
+                  <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="e#1243#1249#0" expanded="true" />
+                    <element signature="e#1249#1255#0" expanded="true" />
+                    <element signature="e#1255#1261#0" expanded="true" />
+                    <element signature="e#1261#1267#0" expanded="true" />
+                    <element signature="e#1267#1273#0" expanded="true" />
+                    <element signature="e#1261#1267#0" expanded="true" />
+                    <element signature="e#1453#1459#0" expanded="true" />
+                    <element signature="e#1459#1465#0" expanded="true" />
+                    <element signature="e#1465#1471#0" expanded="true" />
+                    <element signature="e#1483#1489#0" expanded="true" />
+                    <element signature="e#1489#1495#0" expanded="true" />
+                    <element signature="e#1495#1501#0" expanded="true" />
+                    <element signature="e#1869#1875#0" expanded="true" />
+                    <element signature="e#1882#1888#0" expanded="true" />
+                    <element signature="e#1893#1899#0" expanded="true" />
+                    <element signature="e#2177#2183#0" expanded="true" />
+                    <element signature="e#2185#2191#0" expanded="true" />
+                    <element signature="e#2191#2197#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -92,11 +111,19 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/register.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+                <state relative-caret-position="279">
+                  <caret line="32" selection-start-line="32" selection-end-line="32" />
+                  <folding>
+                    <element signature="e#631#657#0" />
+                    <element signature="e#748#774#0" />
+                    <element signature="e#1183#1248#0" />
+                    <element signature="e#1237#1263#0" />
+                    <element signature="e#1412#1438#0" />
+                    <element signature="e#1500#1526#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -119,10 +146,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/common/head_foot.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
+                <state relative-caret-position="143">
                   <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
                 </state>
               </provider>
@@ -186,12 +213,12 @@
         <option value="$PROJECT_DIR$/test/section.html" />
         <option value="$PROJECT_DIR$/html/common/header.html" />
         <option value="$PROJECT_DIR$/html/404.html" />
-        <option value="$PROJECT_DIR$/html/common/footer.html" />
-        <option value="$PROJECT_DIR$/html/register.html" />
         <option value="$PROJECT_DIR$/css/common.less" />
-        <option value="$PROJECT_DIR$/css/register.less" />
         <option value="$PROJECT_DIR$/css/404.less" />
         <option value="$PROJECT_DIR$/css/common/head_foot.less" />
+        <option value="$PROJECT_DIR$/html/common/footer.html" />
+        <option value="$PROJECT_DIR$/html/register.html" />
+        <option value="$PROJECT_DIR$/css/register.less" />
       </list>
     </option>
   </component>
@@ -208,8 +235,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="y" value="43" />
+    <option name="x" value="-368" />
+    <option name="y" value="107" />
     <option name="width" value="1937" />
     <option name="height" value="985" />
   </component>
@@ -271,7 +298,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/javascript/project/metro" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -324,23 +351,23 @@
       <workItem from="1552713094926" duration="382000" />
       <workItem from="1552714065556" duration="1825000" />
       <workItem from="1552716544628" duration="1380000" />
-      <workItem from="1552802909045" duration="6186000" />
+      <workItem from="1552802909045" duration="10911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81924000" />
+    <option name="totallyTimeSpent" value="86649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114927344" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09577279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3248322" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32348993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/common/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -496,33 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/common/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="e#1282#1288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/register.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/404.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -532,8 +525,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/common/head_foot.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="143">
           <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#1282#1288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/common/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1243#1249#0" expanded="true" />
+            <element signature="e#1249#1255#0" expanded="true" />
+            <element signature="e#1255#1261#0" expanded="true" />
+            <element signature="e#1261#1267#0" expanded="true" />
+            <element signature="e#1267#1273#0" expanded="true" />
+            <element signature="e#1261#1267#0" expanded="true" />
+            <element signature="e#1453#1459#0" expanded="true" />
+            <element signature="e#1459#1465#0" expanded="true" />
+            <element signature="e#1465#1471#0" expanded="true" />
+            <element signature="e#1483#1489#0" expanded="true" />
+            <element signature="e#1489#1495#0" expanded="true" />
+            <element signature="e#1495#1501#0" expanded="true" />
+            <element signature="e#1869#1875#0" expanded="true" />
+            <element signature="e#1882#1888#0" expanded="true" />
+            <element signature="e#1893#1899#0" expanded="true" />
+            <element signature="e#2177#2183#0" expanded="true" />
+            <element signature="e#2185#2191#0" expanded="true" />
+            <element signature="e#2191#2197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/register.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#631#657#0" />
+            <element signature="e#748#774#0" />
+            <element signature="e#1183#1248#0" />
+            <element signature="e#1237#1263#0" />
+            <element signature="e#1412#1438#0" />
+            <element signature="e#1500#1526#0" />
+          </folding>
         </state>
       </provider>
     </entry>

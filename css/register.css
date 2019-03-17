@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-around;
   -webkit-justify-content: space-around;
-  padding: 20px 0 20px 0;
+  padding: 30px 30px;
 }
 #section .sec_con .lft {
   width: 432px;
@@ -30,8 +30,79 @@ body {
   height: 100%;
 }
 #section .sec_con .rgt {
-  background-color: #fff;
   width: 566px;
-  height: 666px;
+}
+#section .sec_con .rgt form .reg {
+  margin-bottom: 44px;
+}
+#section .sec_con .rgt form .reg label {
+  font-size: 24px;
+  line-height: 24px;
+  color: #e5b08c;
+  vertical-align: middle;
+}
+#section .sec_con .rgt form .reg input {
+  margin-left: 30px;
+  padding-left: 10px;
+  width: 400px;
+  height: 35px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  opacity: 0.6;
+  line-height: 35px;
+  background-color: transparent;
+}
+#section .sec_con .rgt form .reg .msg_ipt {
+  width: 190px;
+}
+#section .sec_con .rgt form .reg .get {
+  float: right;
+  margin-right: 30px;
+  line-height: 35px;
+  font-size: 20px;
+  color: #fff;
+}
+#section .sec_con .rgt form .reg .qr_ipt {
+  width: 190px;
+  margin-left: 12px;
+}
+#section .sec_con .rgt form .reg .get_qr {
+  float: right;
+  width: 160px;
+  height: 35px;
+  border: 2px solid #ffffff;
+  opacity: 0.6;
+}
+#section .sec_con .rgt form .reg_info {
+  margin-top: 10px;
+  float: right;
+  width: 415px;
+  display: flex;
+  justify-content: space-between;
+}
+#section .sec_con .rgt form .reg_info a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+}
+#section .sec_con .rgt form .btm {
+  margin-top: 10px;
+  float: right;
+  width: 426px;
+  text-align: center;
+  line-height: 65px;
+  background-color: #e5b08c;
+  border-radius: 8px;
+}
+#section .sec_con .rgt form .btm a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
 }
 /*# sourceMappingURL=register.css.map */
