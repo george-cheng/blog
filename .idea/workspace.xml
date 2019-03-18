@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752108c6-bbc3-4ab8-a6f2-53297c41a9f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common/head_foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common/head_foot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common/head_foot.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/common/head_foot.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/register.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/register.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/register.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/register.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/qqlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/qqlogin.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +24,25 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html/register.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2668">
-                  <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+                <state relative-caret-position="226">
+                  <caret line="81" column="43" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+                  <folding>
+                    <element signature="e#3009#3015#0" expanded="true" />
+                    <element signature="e#3015#3021#0" expanded="true" />
+                    <element signature="e#3021#3027#0" expanded="true" />
+                    <element signature="e#3028#3034#0" expanded="true" />
+                    <element signature="e#3034#3040#0" expanded="true" />
+                    <element signature="e#3040#3046#0" expanded="true" />
+                    <element signature="e#3216#3222#0" expanded="true" />
+                    <element signature="e#3222#3228#0" expanded="true" />
+                    <element signature="e#3228#3234#0" expanded="true" />
+                    <element signature="e#3235#3241#0" expanded="true" />
+                    <element signature="e#3241#3247#0" expanded="true" />
+                    <element signature="e#3247#3253#0" expanded="true" />
+                    <element signature="e#3641#3647#0" expanded="true" />
+                    <element signature="e#3642#3648#0" expanded="true" />
+                    <element signature="e#3648#3654#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -63,11 +78,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/register.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="130">
-                  <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                <state relative-caret-position="410">
+                  <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -75,8 +90,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/404.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+                <state relative-caret-position="92">
+                  <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -84,17 +99,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/common.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="92">
+                  <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/common/head_foot.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+                <state relative-caret-position="138">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
                 </state>
               </provider>
             </entry>
@@ -124,6 +139,7 @@
       <find>欢迎</find>
       <find>font-family</find>
       <find>tit_info_txt</find>
+      <find>container</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,10 +175,10 @@
         <option value="$PROJECT_DIR$/css/common.less" />
         <option value="$PROJECT_DIR$/css/404.less" />
         <option value="$PROJECT_DIR$/html/common/footer.html" />
-        <option value="$PROJECT_DIR$/css/register.less" />
         <option value="$PROJECT_DIR$/test/carousel.html" />
         <option value="$PROJECT_DIR$/html/404.html" />
         <option value="$PROJECT_DIR$/css/common/head_foot.less" />
+        <option value="$PROJECT_DIR$/css/register.less" />
         <option value="$PROJECT_DIR$/html/register.html" />
       </list>
     </option>
@@ -173,9 +189,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="6" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-17" />
+    <option name="y" value="421" />
     <option name="width" value="1937" />
     <option name="height" value="985" />
   </component>
@@ -302,18 +318,18 @@
       <workItem from="1552714065556" duration="1825000" />
       <workItem from="1552716544628" duration="1380000" />
       <workItem from="1552802909045" duration="11636000" />
-      <workItem from="1552872707423" duration="4020000" />
+      <workItem from="1552872707423" duration="5053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91394000" />
+    <option name="totallyTimeSpent" value="92427000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-17" y="421" width="1937" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09536354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.095313326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -470,38 +486,10 @@
     <entry file="file://$PROJECT_DIR$/images/register/tu.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/404.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/register.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/common/head_foot.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -512,10 +500,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/common/head_foot.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/404.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/register.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2668">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="226">
+          <caret line="81" column="43" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+          <folding>
+            <element signature="e#3009#3015#0" expanded="true" />
+            <element signature="e#3015#3021#0" expanded="true" />
+            <element signature="e#3021#3027#0" expanded="true" />
+            <element signature="e#3028#3034#0" expanded="true" />
+            <element signature="e#3034#3040#0" expanded="true" />
+            <element signature="e#3040#3046#0" expanded="true" />
+            <element signature="e#3216#3222#0" expanded="true" />
+            <element signature="e#3222#3228#0" expanded="true" />
+            <element signature="e#3228#3234#0" expanded="true" />
+            <element signature="e#3235#3241#0" expanded="true" />
+            <element signature="e#3241#3247#0" expanded="true" />
+            <element signature="e#3247#3253#0" expanded="true" />
+            <element signature="e#3641#3647#0" expanded="true" />
+            <element signature="e#3642#3648#0" expanded="true" />
+            <element signature="e#3648#3654#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
