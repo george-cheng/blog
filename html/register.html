@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="../css/register.css">
     <link rel="stylesheet" href="../css/common/head_foot.css">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../layui/css/layui.css">
+
+    <style>
+        .layui-layer-msg{
+            top: 800px !important;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -82,20 +90,20 @@
                         <label for="">短信验证码:</label>
                         <input type="text" class="msg_ipt" id="msg" name="msg" placeholder="输入短信验证码">
                         <div class="get">
-                            <p id="get_msg">获取验证码</p>
+                            <p id="get_msg" onclick="click()">获取验证码</p>
                         </div>
                     </div>
                     <div class="qrcode reg">
                         <label for="">图片验证码:</label>
-                        <input type="text" class="qr_ipt" id="msg" name="msg" placeholder="输入图片验证码">
+                        <input type="text" class="qr_ipt" id="qr_ipt" name="qr_ipt" placeholder="输入图片验证码">
                         <div class="get_qr">
                             <p style="color:#fff; text-align: center">图片验证码区域</p>
                         </div>
                     </div>
                     <div class="reg_info">
-                        <a href="#">账户注册</a><a href="#">忘记密码?</a>
+                        <a href="">账户注册</a><a href="#">忘记密码?</a>
                     </div>
-                    <div class="btm">
+                    <div class="btm" id="btm">
                         <p>账户注册</p>
                     </div>
                 </form>
@@ -109,10 +117,127 @@
 
 <script src="../js/jquery-3.3.1.min.js"></script>
 <script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../layui/layui.all.js"></script>
 
 <script>
     $('#header').load('./common/header.html');
     $('#footer').load('./common/footer.html');
+
+
+    $('#btm').on('click',function () {
+        var nick = $('#nick').val();
+        var pwd = $('#pwd').val();
+        var cpwd = $('#cpwd').val();
+        var ph = $('#ph').val();
+        var msg = $('#msg').val();
+        var qr_ipt = $('#qr_ipt').val();
+
+        if(!nick){
+            layer.msg('请输入昵称');
+            return false;
+        }
+        if(!pwd){
+            layer.msg('请输入密码');
+            return false;
+        }
+        if(!cpwd){
+            layer.msg('请输入确认密码');
+            return false;
+        }
+        if(pwd!==cpwd){
+            layer.msg('两次密码输入不一致,请重新输入');
+            $('#pwd').val('');
+            $('#cpwd').val('');
+            return false;
+        }
+        if(!ph){
+            layer.msg('请输入手机号');
+            return false;
+        }
+        if(!msg){
+            layer.msg('请输入短信验证码');
+            return false;
+        }
+        if(!qr_ipt){
+            layer.msg('请输入图片验证码');
+            return false;
+        }
+
+        var data = {'nick':nick,'pwd':pwd,'cpwd':cpwd,'ph':ph,'msg':msg,'qr_ipt':qr_ipt};
+        $.ajax({
+            url:'xxx.php',
+            data:data,
+            type:'post',
+            dataType:'json',
+            success:function (data) {
+                if(data.code == '200'){
+                    layer.msg('注册成功');
+
+                    window.setTimeout(function () {
+                        window.location.href = '/';
+                    });
+                }else{
+                    layer.msg(data.msg);
+                }
+            },
+            error:function () {
+                layer.msg('注册失败,请重新注册');
+            }
+        });
+
+    });
+
+
+
+
+    click();
+    function click() {
+        var countdown = 60;
+        $('#get_msg').click(function () {
+            var phone = $('#ph').val();
+            if(!phone){
+                mui.toast('手机号不能为空!');
+                return false;
+            }
+            $('#get_msg').off();
+            $.ajax({
+                url:'/send/code',
+                data:{'phone':$('#ph').val(),type:1},
+                type:'post',
+                dataType:'json',
+                success:function (data) {
+                    if(data.code == '200'){
+                        mui.toast('发送成功');
+                    }else{
+                        mui.toast(data.msg);
+                    }
+                },
+                error:function () {
+                    console.log(('网络错误'));
+                }
+            });
+            var Time = setInterval(function () {
+                redTime()
+            },1000);
+            redTime();
+            function redTime () {
+                countdown -- ;
+                if(countdown<10){
+                    countdown = '0'+countdown
+                }
+                $('#get_msg').html("正在发送("+countdown+"s)");
+                if (countdown <= 0) {
+                    window.clearInterval(Time);
+                    $('#get_msg').html("获取验证码");
+                    click();
+                    countdown = 60;
+                }
+            }
+        })
+    }
+
+
+
 
 </script>
 </body>

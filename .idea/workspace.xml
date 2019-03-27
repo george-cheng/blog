@@ -18,11 +18,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.6077429">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html/register.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1470">
-                  <caret line="106" selection-start-line="106" selection-end-line="106" />
+                <state relative-caret-position="509">
+                  <caret line="227" column="27" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="27" />
                   <folding>
                     <element signature="e#3009#3015#0" expanded="true" />
                     <element signature="e#3015#3021#0" expanded="true" />
@@ -30,15 +30,7 @@
                     <element signature="e#3028#3034#0" expanded="true" />
                     <element signature="e#3034#3040#0" expanded="true" />
                     <element signature="e#3040#3046#0" expanded="true" />
-                    <element signature="e#3216#3222#0" expanded="true" />
-                    <element signature="e#3222#3228#0" expanded="true" />
-                    <element signature="e#3228#3234#0" expanded="true" />
-                    <element signature="e#3235#3241#0" expanded="true" />
-                    <element signature="e#3241#3247#0" expanded="true" />
-                    <element signature="e#3247#3253#0" expanded="true" />
-                    <element signature="e#3641#3647#0" expanded="true" />
-                    <element signature="e#3642#3648#0" expanded="true" />
-                    <element signature="e#3648#3654#0" expanded="true" />
+                    <element signature="e#5409#6358#0" />
                   </folding>
                 </state>
               </provider>
@@ -56,17 +48,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/carousel.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-18">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
+                <state relative-caret-position="233">
+                  <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/step/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="851">
+                  <caret line="217" column="23" lean-forward="true" selection-start-line="217" selection-start-column="23" selection-end-line="217" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/404.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
-                  <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+                <state relative-caret-position="228">
+                  <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -189,8 +190,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="133" />
-    <option name="y" value="164" />
+    <option name="x" value="551" />
+    <option name="y" value="102" />
     <option name="width" value="1895" />
     <option name="height" value="937" />
   </component>
@@ -234,23 +235,13 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="step" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,7 +254,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jiwei/wiring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -318,14 +309,16 @@
       <workItem from="1552716544628" duration="1380000" />
       <workItem from="1552802909045" duration="11636000" />
       <workItem from="1552872707423" duration="8462000" />
+      <workItem from="1553652721932" duration="6922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95836000" />
+    <option name="totallyTimeSpent" value="102758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="164" width="1895" height="937" extended-state="0" />
+    <frame x="551" y="102" width="1895" height="937" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09746904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -484,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/carousel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/common/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -498,27 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/register.html">
+    <entry file="file://$PROJECT_DIR$/css/register.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#3009#3015#0" expanded="true" />
-            <element signature="e#3015#3021#0" expanded="true" />
-            <element signature="e#3021#3027#0" expanded="true" />
-            <element signature="e#3028#3034#0" expanded="true" />
-            <element signature="e#3034#3040#0" expanded="true" />
-            <element signature="e#3040#3046#0" expanded="true" />
-            <element signature="e#3216#3222#0" expanded="true" />
-            <element signature="e#3222#3228#0" expanded="true" />
-            <element signature="e#3228#3234#0" expanded="true" />
-            <element signature="e#3235#3241#0" expanded="true" />
-            <element signature="e#3241#3247#0" expanded="true" />
-            <element signature="e#3247#3253#0" expanded="true" />
-            <element signature="e#3641#3647#0" expanded="true" />
-            <element signature="e#3642#3648#0" expanded="true" />
-            <element signature="e#3648#3654#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2070">
+          <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -526,13 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/register.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -552,8 +514,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+        <state relative-caret-position="228">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/carousel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/step/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="217" column="23" lean-forward="true" selection-start-line="217" selection-start-column="23" selection-end-line="217" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="227" column="27" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="27" />
+          <folding>
+            <element signature="e#3009#3015#0" expanded="true" />
+            <element signature="e#3015#3021#0" expanded="true" />
+            <element signature="e#3021#3027#0" expanded="true" />
+            <element signature="e#3028#3034#0" expanded="true" />
+            <element signature="e#3034#3040#0" expanded="true" />
+            <element signature="e#3040#3046#0" expanded="true" />
+            <element signature="e#5409#6358#0" />
+          </folding>
         </state>
       </provider>
     </entry>
